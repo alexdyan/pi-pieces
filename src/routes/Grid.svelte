@@ -10,7 +10,7 @@
 </script>
 
 
-<div>
+<div class="py-6 md:py-0">
     <div class="w-[384px] mx-auto flex justify-between">
         <div class="flex gap-2 items-center py-4">
             <div class="w-4 h-4 colorA"></div>
@@ -18,7 +18,7 @@
             <div class="w-4 h-4 colorB"></div>
             <p>{isReversed ? textA : textB}</p>
         </div>
-        <button onclick={() => isReversed = !isReversed} title="reverse">
+        <button onclick={() => isReversed = !isReversed} title="swap" class="pr-2 md:pr-0">
             <i class="ph ph-swap text-xl"></i>
         </button>
     </div>

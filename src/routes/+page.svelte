@@ -27,11 +27,11 @@
     </div>
     <p class="px-8 lg:px-48 py-12 text-center elms-sans">Each grid represents the first 1,024 digits of pi (starting with '3' in the upper-left corner). They are colored in various ways to create pixel art.</p>
 
-    <div class="w-full p-1 lg:p-8 lg:grid lg:grid-cols-2 lg:gap-8 elms-sans">
+    <div class="w-full pb-12 lg:p-8 lg:grid lg:grid-cols-2 lg:gap-8 elms-sans">
         <Grid data={data.evenOdd} textA="Even number" textB="Odd number" />
         <Grid data={data.primeNumbers} textA="Prime number" textB="Non-prime number" />
         <Grid data={data.perfectSquares} textA="Perfect square" textB="Non-perfect square" />
-        <Grid data={data.nextDigit} textA="Next digit is larger" textB="Next digit is equal or smaller" />
+        <Grid data={data.nextDigit} textA="Next digit is larger" textB="Next digit is smaller" />
         <Grid data={data.repeats} textA="Repeating digits" textB="Non-repeating digits" />
         <Grid data={data.birthday} textA="Number is in my birthday 🥳" textB="Number not in my birthday" />
     </div>
